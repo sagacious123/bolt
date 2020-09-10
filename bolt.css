@@ -1,0 +1,187 @@
+.style {
+    font-family: calibri;
+    font-size: 18px;
+}
+
+.navbar-toggler {
+    color: black;
+}
+.cont {
+    display: inline-block;
+    cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+    width: 1.2em;
+    height: 0.09em;
+    background-color: black;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-2px, 7px);
+    transform: rotate(-45deg) translate(-2px, 7px);
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-1px, -6px);
+    transform: rotate(45deg) translate(-1px, -6px);
+}
+
+.nav-item a:hover {
+    background-color: rgb(247, 247, 247);
+    border-radius: 2px;
+}
+
+.img1 {
+    /* background-image: url(finegirl.jpg);
+    width: 100%;
+    max-height: 900px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat; */
+    padding: 0px;
+}
+
+.over {
+    margin-right: 0px;
+    margin-top: 60px;
+}
+.playstore {
+    margin-top: -9px;
+}
+.app-badges {
+    display: inline-flex;
+    margin-bottom: 2px;
+}
+.app-badge {
+    display: inline-flex;
+}
+.shrink {
+    margin: 10%;
+}
+.fixed-top {
+    background-color: white;
+}
+.blue-section {
+    padding: 40px;
+    text-align: center;
+}
+.foot-icon {
+    float: left;
+}
+.logo {
+    height: 50px;
+    width: 100px;
+}
+.foot-list {
+    list-style-type: none;
+    padding-left: 0
+}
+.foo-ter {
+    padding-bottom: 100px
+}
+.btn-white {
+    border-radius: 8em;
+    padding: 3% 6%;
+    word-spacing: 1px;
+    letter-spacing: 0.6px;
+}
+.bg-primary {
+    background-color: #5d22ff !important;
+    position: relative;
+    z-index: -1;
+}
+
+
+.bg-wrapper {
+    position: relative;
+    z-index: 1;
+}
+.bg-lightgreen {
+    background-color: rgb(210, 255, 255);
+}
+/* .d-row {
+    padding: 30px 20px 150px 20px;
+} */
+.ccc {
+    z-index: -1;
+}
+.cent {
+    padding-top: 130px;
+    padding-bottom: 120px;
+    padding-left: 40px;
+    position: relative;
+    z-index: 2;
+}
+.imgphone {
+    background-image: url(bigphone.png);
+    width: 100%;
+    height: 700PX;
+    max-height: 949px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.parag1, .parag2, .parag3 {
+    font-family: calibri;
+}
+.feature {
+    font-family: calibri;
+}
+.features-block-text {
+    font-family: calibri;
+}
+.features-icon {
+    background-color: rgb(210, 255, 255);
+    border-radius: 50%;
+    padding: 12px;
+}  
+.features-question {
+    text-align: center;
+    padding: 80px 0px;
+} 
+.feature .white-text a {
+    text-decoration: underline;
+}
+.feature .white-text a:hover {
+    color: white;
+}
+
+@media(max-width: 687px) {
+    .img1 img {
+        width: 100% !important;
+        height: 400px !important;
+    }
+}
+ 
+
+    /* margin-top: -194px;
+    height: 620px;
+    background-size: contain;
+    width: 700px;
+    max-width: 48%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 48%; */
+
+    /* background-image: url(bigphone.png);
+    margin-top: -160px;
+    height: 200px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right; */
+/* .imgicon1 {
+    height: 150px; 
+    width: 130px;
+
+.imgicon2 {
+    height: 100px; 
+    width: 100px;
+}
+.imgicon3 {
+    margin-left: -35px;
+    height: 100px; 
+    width: 150px;
+} */
